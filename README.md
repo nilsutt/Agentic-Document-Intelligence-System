@@ -39,9 +39,9 @@ Sistemi tüm bağımlılıkları ile izole bir şekilde çalıştırmak için:
   ```
 
 ### API Dokümantasyonu (Swagger UI)
+Sistem, API entegrasyonları için hazır olan, standartlara uygun (OAS 3.1) RESTful API arayüzüne sahiptir.
 
-Sistem, FastAPI üzerinde otomatik dökümante edilen RESTful API arayüzüne sahiptir.
-API Dokümantasyonu
+![API Dokümantasyonu](./assets/api_docs.png)
 
 ## Kullanım
 
