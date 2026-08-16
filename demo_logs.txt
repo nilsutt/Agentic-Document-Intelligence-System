@@ -1,11 +1,11 @@
 ASK MODU:
 
-(venv) nilsutatlici@unknownf6e50911f45c banking-doc-intelligence % python3 -m src.presentation.cli.main ask "Banka, iklim değişikliği ve afet durumlarında iş kesintisi risklerine karşı organizasyonel olarak ne gibi önlemler almaktadır?"
-/Users/nilsutatlici/Projects/banking-doc-intelligence/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+(venv) nilsutatlici@unknownf6e50911f45c Agentic-Document-Intelligence-System % python3 -m src.presentation.cli.main ask "Şirket, iklim değişikliği ve afet durumlarında iş kesintisi risklerine karşı organizasyonel olarak ne gibi önlemler almaktadır?"
+/Users/nilsutatlici/Projects/Agentic-Document-Intelligence-System/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
   warnings.warn(
-/Users/nilsutatlici/Projects/banking-doc-intelligence/venv/lib/python3.9/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+/Users/nilsutatlici/Projects/Agentic-Document-Intelligence-System/venv/lib/python3.9/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
   from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
-Querying: Banka, iklim değişikliği ve afet durumlarında iş kesintisi risklerine karşı organizasyonel olarak ne gibi önlemler almaktadır?
+Querying: İklim değişikliği ve afet durumlarında iş kesintisi risklerine karşı organizasyonel olarak ne gibi önlemler almaktadır?
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
@@ -19,12 +19,12 @@ Answer:
 
 Kaynaklar:
 - [Sayfa: 1 | Bölüm: Yönetimi | Skor: 0.301]
-- [Sayfa: 2 | Bölüm: bu riskin Banka kaynaklarına yönelik | Skor: 0.326]
+- [Sayfa: 2 | Bölüm: bu riskin şirket kaynaklarına yönelik | Skor: 0.326]
 - [Sayfa: 3 | Bölüm: konuları arasında değerlendirmektedir. | Skor: 0.343]
-(venv) nilsutatlici@unknownf6e50911f45c banking-doc-intelligence % python3 scripts/evaluate.py
-/Users/nilsutatlici/Projects/banking-doc-intelligence/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+(venv) nilsutatlici@unknownf6e50911f45c Agentic-Document-Intelligence-System % python3 scripts/evaluate.py
+/Users/nilsutatlici/Projects/Agentic-Document-Intelligence-System/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
   warnings.warn(
-/Users/nilsutatlici/Projects/banking-doc-intelligence/venv/lib/python3.9/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+/Users/nilsutatlici/Projects/Agentic-Document-Intelligence-System/venv/lib/python3.9/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
   from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
 ====== Agentic Platform Değerlendirme Raporu ======
 
@@ -51,14 +51,14 @@ Ortalama Keyword Skoru: 76.7%
 
 CHAT MODU:
 
-(venv) nilsutatlici@unknownf6e50911f45c banking-doc-intelligence % python3 -m src.presentation.cli.main chat
-/Users/nilsutatlici/Projects/banking-doc-intelligence/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+(venv) nilsutatlici@unknownf6e50911f45c Agentic-Document-Intelligence-System % python3 -m src.presentation.cli.main chat
+/Users/nilsutatlici/Projects/Agentic-Document-Intelligence-System/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
   warnings.warn(
-/Users/nilsutatlici/Projects/banking-doc-intelligence/venv/lib/python3.9/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+/Users/nilsutatlici/Projects/Agentic-Document-Intelligence-System/venv/lib/python3.9/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
   from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
 Starting interactive chat. Type 'exit' or 'quit' to stop.
 Press Ctrl+C to abort safely.
-You: Belgede bankanın iklim değişikliği ile ilgili risk yönetimi yaklaşımı nedir?
+You: Belgede şirketin iklim değişikliği ile ilgili risk yönetimi yaklaşımı nedir?
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
@@ -66,11 +66,11 @@ INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
 
-Agent: {"name": "search_document", "parameters": {"query": "bank\u00e7ın iklim de\u00f6ngi\u015ft \u00eelili risk\u0131y\&ouml; \u0116t\u0130ş\u00a9\u0131 m\u015fahim\u0131k", "top_k": "10"}}
+Agent: {"name": "search_document", "parameters": {"query": "sirket\u00e7ın iklim de\u00f6ngi\u015ft \u00eelili risk\u0131y\&ouml; \u0116t\u0130ş\u00a9\u0131 m\u015fahim\u0131k", "top_k": "10"}}
 
 INFO:httpx:HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
 Kaynaklar:
-- [Sayfa: 2 | Bölüm: bu riskin Banka kaynaklarına yönelik | Skor: 0.260]
+- [Sayfa: 2 | Bölüm: bu riskin şirket kaynaklarına yönelik | Skor: 0.260]
 - [Sayfa: 3 | Bölüm: konuları arasında değerlendirmektedir. | Skor: 0.282]
 - [Sayfa: 5 | Bölüm: 113 | Skor: 0.283]
 
