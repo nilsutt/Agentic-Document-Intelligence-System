@@ -1,4 +1,4 @@
-# Banking Agentic Platform - Mimari Tasarım ve Dokümantasyon
+# Ajan Tabanlı Doküman İşleme Sistemi - Mimari Tasarım ve Dokümantasyon
 
 Bu döküman, projenin mevcut (MVP) mimari akışını ve "Enterprise" (günde 1 milyon+ işlem hacmi) seviyesine geçiş vizyonunu açıklar.
 
