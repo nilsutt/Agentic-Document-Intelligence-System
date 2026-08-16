@@ -1,6 +1,6 @@
-# Banking Agentic Platform MVP
+# Ajan Tabanlı Doküman İşleme Sistemi
 
-Bankacılık sektörü için çok-modlu PDF belgelerinden "Agentic Bilgi Çıkarımı" yapan, Clean Architecture prensiplerine dayalı Python MVP sistemi.
+Kurumsal sektörler için çok-modlu PDF belgelerinden "Agentic Bilgi Çıkarımı" yapan, Clean Architecture prensiplerine dayalı Python MVP sistemi.
 
 ## Özellikler
 
@@ -176,6 +176,6 @@ Uygulama **Clean Architecture** prensiplerine göre tasarlanmıştır. İç içe
 
 Bu projede, sadece çalışan bir kod yazmak değil; sürdürülebilir, güvenli ve "Enterprise-Ready" bir mimari oluşturmak hedeflenmiştir. Bu hedef doğrultusunda şu yapılar kullanılmıştır:
 
-**Tree-Structure (Hiyerarşik) Chunking:** Sabit boyutlu (flat) chunking yerine, belgenin yapısal hiyerarşisini (Section/Sub-section) koruyan Tree-Structure yöntemi tercih edilmiştir. Bu sayede LLM, metin parçalarını hangi ana başlık altında değerlendirmesi gerektiğini bilir; bu da bankacılık verilerinde "bağlam kaybı" ve "halüsinasyon" riskini minimize eder.
+**Tree-Structure (Hiyerarşik) Chunking:** Sabit boyutlu (flat) chunking yerine, belgenin yapısal hiyerarşisini (Section/Sub-section) koruyan Tree-Structure yöntemi tercih edilmiştir. Bu sayede LLM, metin parçalarını hangi ana başlık altında değerlendirmesi gerektiğini bilir; bu da kurumsal verilerde "bağlam kaybı" ve "halüsinasyon" riskini minimize eder.
 
 **Clean Architecture & Factory Pattern:** Uygulama katmanı (Domain), altyapıdan (Infrastructure) tamamen izole edilmiştir. Factory Pattern kullanılarak LLM ve Vektör Veritabanı sağlayıcıları (Ollama, OpenAI, FAISS vb.) arayüzleştirilmiştir. Bu sayede sistem, kurum içi regülasyonlar (KVKK) gereği yerel bir modelden bulut modeline geçişi, tek bir satır kod değiştirmeden sadece `.env` güncellemesi ile destekler.
